@@ -2,9 +2,10 @@ import { lazy } from 'react'
 import authRoute from './authRoute'
 import othersRoute from './othersRoute'
 import type { Routes } from '@/@types/routes'
+import sharedRoutes from './sharedRoutes'
 
 export const publicRoutes: Routes = [...authRoute]
-
+export const sharedRoute :Routes=[...sharedRoutes]
 export const protectedRoutes: Routes = [
     /** Example purpose only, please remove */
     {

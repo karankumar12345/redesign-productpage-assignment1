@@ -77,7 +77,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                     </div>
 
                     {/* Content Section */}
-                    <div className="lg:w-1/2 lg:pr-8">
+                    <div className="lg:w-1/2  lg:pr-8">
                         <h1 className="text-2xl md:text-4xl font-semibold mb-4 capitalize text-white">
                             <span className="text-primary">AI front office </span> <br />
                             for healthcare agents
